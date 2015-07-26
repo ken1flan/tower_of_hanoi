@@ -1,0 +1,19 @@
+{
+  "name": "tower_of_hanoi",
+  "version": "1.0.0",
+  "description": "tower of hanoi",
+  "main": "index.js",
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "babelify": "^6.1.1",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "build": "browserify --debug --transform babelify ./tower_of_hanoi.es6 --outfile tower_of_hanoi.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
